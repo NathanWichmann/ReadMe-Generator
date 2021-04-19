@@ -1,0 +1,26 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanWichmann/ReadMe-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanWichmann/ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/NathanWichmann/ReadMe-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "license-webpack-plugin": "^2.3.17"
+  }
+}
