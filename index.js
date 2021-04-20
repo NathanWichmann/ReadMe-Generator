@@ -29,15 +29,6 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Is there a table of contents?',
-        name: 'Contents',
-        validate:(value) => {
-            if (value)
-            {return true} 
-            else {return 'please enter a value'}},
-    },
-    {
-        type: 'input',
         message: 'How do you install your Application?',
         name: 'Installation',
         validate:(value) => {
@@ -65,7 +56,7 @@ const questions = [
     },
     {
         type: 'list',
-        message: 'What License did you use?',
+        message: 'What License do you want to use?',
         name: 'License',
         choices: ['The MIT License', 'The GPL License', 'Apache License 2.0', 'GNU General Public License v3.0', 'The Unlicense'],
         validate:(value) => {
@@ -84,7 +75,25 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Are there any questions about your ?',
+        message: 'Please enter your Github user name?',
+        name: 'Questions',
+        validate:(value) => {
+            if (value)
+            {return true} 
+            else {return 'please enter a value'}},
+    },
+    {
+        type: 'input',
+        message: 'Please enter your email?',
+        name: 'questions',
+        validate:(value) => {
+            if (value)
+            {return true} 
+            else {return 'please enter a value'}},
+    },
+    {
+        type: 'confirm',
+        message: 'Have any questions for me?',
         name: 'Questions',
         validate:(value) => {
             if (value)
