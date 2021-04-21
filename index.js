@@ -5,6 +5,14 @@ const fs = require ('fs');
 const path = require('path');
 // const LicenseWebpackPlugin = require('license-webpack-plugin').LicenseWebpackPlugin;
 
+const licenses = {
+    'The MIT License': '',
+    'The GPL License': '',
+    'Apache License 2.0': 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
+    'GNU General Public License v3.0': '',
+    'The Unlicense': ''
+}
+
 
 // TODO: Create an array of questions for user input
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -58,7 +66,7 @@ const questions = [
         type: 'list',
         message: 'What License do you want to use?',
         name: 'License',
-        choices: ['The MIT License', 'The GPL License', 'Apache License 2.0', 'GNU General Public License v3.0', 'The Unlicense'],
+        choices: Object.keys(licenses),
         validate:(value) => {
             if (value)
             {return true} 
@@ -119,6 +127,7 @@ function init() {
     inquirer.prompt(questions)
         .then(function(answers){
          //   console.log(answers)
+           answers["badge"] = licenses[answers.License]
            let template =  generateMarkdown(answers);
            console.log(template)
 

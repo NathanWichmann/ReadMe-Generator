@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 
 const inquirer = require("inquirer");
-// const LicenseWebpackPlugin = require('license-webpack-plugin').LicenseWebpackPlugin;
+const LicenseWebpackPlugin = require('license-webpack-plugin').LicenseWebpackPlugin;
 
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
@@ -21,19 +21,19 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
 
   return ` :EMOJICODE:
-  # THIS IS MY TITLE: :point_left:<br> 
+  # THIS IS MY TITLE: :point_right:<br> 
   ${data.Title} 
   # DESCRIPTION: <br>
   ${data.Description}
   # TABLE OF CONTENTS: <br>
-- [Title](#Title)
-- [Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Contributors](#Contributors)
-- [Licence](#Licence)
-- [Test](#Test)
-- [GitHub Info](#GitHub) 
+  - [TITLE](#TITLE)
+  - [DESCRIPTION](#DESCRIPTION)
+  - [INSTALLTION](#INSTALLATION)
+  - [USAGE](#USAGE)
+  - [CONTRIBUTORS](#CONTRIBUTORS)
+  - [LICENSE](#LICENSE)
+  - [TEST](#TEST)
+  - [GITHUB INFO](#GITHUB) 
   
   # INSTALLATION: <br>
   ${data.Installation}
