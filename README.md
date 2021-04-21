@@ -26,7 +26,12 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
-
 ## Installation
+The installation was a bit harder than I had expected. The initial setup went smooth with the questions and answers. However, the set up for the licenses was not so smooth. The problem was connecting them to the generatemarkdown and having the license badge come out. The output kept saying undefined. This will take some time for me to figure out. 
+The user interface is runs very smooth and stops the user from skiping a question with the validation code. This way the user has to make a contribution to the question or they get a message thats says 'please enter a value'. This was added to each question so none of the questions can be skipped by the user. I also added a console.log at the end that indicates the redme has been created, so the user will be prompted to check the newly created README.md file to the right in the tree. 
 
 ## What I leant 
+Node.js is not as intimidating as I first though it was. The syntax is similar to the that of the front end. The interface is very simple and similar to the first computers I used in the 90's with ms dos before windows. I had almost forgot about those days, until I started using the command line more and became more comfortible with it. I do not seem to have a problem understanding what is being shown to me when it comes to javascript and node.js. The problem comes when I have to remember what to use from scratch and where to put it. Half the battle is understanding, the other half is implementing. Still working on it. 
+
+## Contributors 
+Again I had lots of help from my tutor Joey and my teacher's assistant Ben help with a few questions. 
