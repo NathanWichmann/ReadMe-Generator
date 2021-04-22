@@ -52,7 +52,7 @@ function generateMarkdown(data) {
   # License: <br>
   ${renderLicenseBadge(data.License)}
   ${renderLicenseLink(data.License)}
-  # TESTS :heavy_check_mark:<br>
+  ## TESTS :heavy_check_mark:<br>
   ${data.Tests}
   # QUESTIONS: <br>
   <a>${data.Questions}<

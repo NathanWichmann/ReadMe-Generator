@@ -123,7 +123,7 @@ function init() {
            let template =  generateMarkdown(answers);
            console.log(template)
 
-           writeToFile('README.md', template );
+           writeToFile('READMETWO.md', template );
            
     })
 
