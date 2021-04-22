@@ -25,7 +25,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-
+ 
   return ` :EMOJICODE:
   ${renderLicenseBadge(data.License)}
  
@@ -34,14 +34,14 @@ function generateMarkdown(data) {
   # DESCRIPTION: <br>
   ${data.Description}
   # TABLE OF CONTENTS: <br>
-  - [TITLE](#Title)
-  - [DESCRIPTION](#description)
-  - [INSTALLTION](#installation)
-  - [USAGE](#usage)
-  - [CONTRIBUTORS](#contributors)
-  - [LICENSE](#license)
-  - [TESTS](#tests)
-  - [Questions](#questions) 
+  - [TITLE](#THIS-IS-MY-TITLE:)
+  - [DESCRIPTION](#DESCRIPTION:)
+  - [INSTALLTION](#INSTALLATION:)
+  - [USAGE](#USAGE:)
+  - [CONTRIBUTORS](#CONTRIBUTION:)
+  - [LICENSE](#License:)
+  - [TESTS](#TESTS:)
+  - [Questions](#QUESTIONS:) 
   
   # INSTALLATION: <br>
   ${data.Installation}
@@ -52,14 +52,14 @@ function generateMarkdown(data) {
   # License: <br>
   ${renderLicenseBadge(data.License)}
   ${renderLicenseLink(data.License)}
-  ## TESTS :heavy_check_mark:<br>
+  ## TESTS: :heavy_check_mark:<br>
   ${data.Tests}
   # QUESTIONS: <br>
-  <a>${data.Questions}<
-  ${data.questions}
+  <a>${data.github}<
+
   If you have any questions for me about this Application, please feel free to reach 
-  out to me directly on Github on my profile page https://github.com/NathanWichmann <br>
-  or you can email me directly at nathanwicker@hotmail.com
+  out to me directly on Github on my profile page https://github.com/${data.github} <br>
+  or you can email me directly at ${data.email}
   `;
 }
 

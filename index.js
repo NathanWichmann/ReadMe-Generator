@@ -85,7 +85,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please enter your Github user name?',
-        name: 'Questions',
+        name: 'github',
         validate:(value) => {
             if (value)
             {return true} 
@@ -94,7 +94,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please enter your email?',
-        name: 'questions',
+        name: 'email',
         validate:(value) => {
             if (value)
             {return true} 
