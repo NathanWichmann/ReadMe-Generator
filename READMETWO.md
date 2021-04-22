@@ -14,7 +14,7 @@
   - [CONTRIBUTORS](#CONTRIBUTION:)
   - [LICENSE](#License:)
   - [TESTS](#TESTS:)
-  - [Questions](#Questions) 
+  - [Questions](#questions) 
   -----
   
   # INSTALLATION: <br>
