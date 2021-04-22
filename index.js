@@ -3,14 +3,13 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require ('fs');
 const path = require('path');
-// const LicenseWebpackPlugin = require('license-webpack-plugin').LicenseWebpackPlugin;
 
 const licenses = {
-    'The MIT License': '',
-    'The GPL License': '',
+    'The MIT License': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+    'ISC License': '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
     'Apache License 2.0': 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
-    'GNU General Public License v3.0': '',
-    'The Unlicense': ''
+    'GNU General Public License v3.0': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
+    'Mozillia Public License 2.0': '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
 }
 
 
@@ -99,15 +98,6 @@ const questions = [
             {return true} 
             else {return 'please enter a value'}},
     },
-    {
-        type: 'confirm',
-        message: 'Have any questions for me?',
-        name: 'Questions',
-        validate:(value) => {
-            if (value)
-            {return true} 
-            else {return 'please enter a value'}},
-    }
     
 
 ];
