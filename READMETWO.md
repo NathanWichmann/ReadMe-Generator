@@ -1,9 +1,9 @@
  :EMOJICODE:
   [![License:](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
-  # THIS IS MY TITLE: :point_right:<br> 
+  # THIS IS MY TITLE: :point_right:
   A 
-  # DESCRIPTION: <br>
+  # DESCRIPTION:
   A
   -----
   # TABLE OF CONTENTS:
@@ -17,11 +17,11 @@
   - [Questions](#questions) 
   -----
   
-  # INSTALLATION: <br>
+  # INSTALLATION:
   A
-  # USAGE: :running: <br>
+  # USAGE: :running
   A 
-  # CONTRIBUTION: :dancing_men:<br>
+  # CONTRIBUTION: :dancing_men:
   A
   # License: <br>
   [![License:](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -38,7 +38,7 @@
   a
   
   aa
-  # Questions <br>
+  # Questions
   <a>A<
 
   If you have any questions for me about this Application, please feel free to reach 
