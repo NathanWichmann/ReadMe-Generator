@@ -63,8 +63,8 @@ function generateMarkdown(data) {
 
   ## QUESTIONS
   If you have any questions for me about this Application, please feel free to reach 
-  out to me directly on Github on my profile page <https://github.com${data.github}>
-  or you can email me directly at <${data.email}>
+  out to me directly on Github on my profile page <a href="https://github.com/${data.github}">https://github.com/${data.github}</a>
+  or you can email me directly to  <a href="mailto:${data.email}">mailto:${data.email}</a>
   `;
 }
 

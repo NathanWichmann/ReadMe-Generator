@@ -35,6 +35,6 @@
 
   ## QUESTIONS
   If you have any questions for me about this Application, please feel free to reach 
-  out to me directly on Github on my profile page <https://github.coma>
-  or you can email me directly at <a>
+  out to me directly on Github on my profile page <a href="https://github.com/a">https://github.com/a</a>
+  or you can email me directly to  <a href="mailto:a">mailto:a</a>
   
