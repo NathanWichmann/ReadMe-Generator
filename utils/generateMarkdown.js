@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return `[![License:](https://img.shields.io/badge/license-${license}-yellow.svg)](https://opensource.org/licenses/${license})`
+  return `(https://opensource.org/licenses/${license})`
 }
 
 // TODO: Create a function that returns the license section of README
@@ -26,40 +26,45 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
  
-  return ` :EMOJICODE:
+  return ` 
   ${renderLicenseBadge(data.License)}
  
-  # THIS IS MY TITLE: :point_right:<br> 
+  ## THIS IS MY TITLE
   ${data.Title} 
-  # DESCRIPTION: <br>
+
+  ## DESCRIPTION
   ${data.Description}
-  # TABLE OF CONTENTS: <br>
-  - [TITLE](#THIS-IS-MY-TITLE:)
-  - [DESCRIPTION](#DESCRIPTION:)
-  - [INSTALLTION](#INSTALLATION:)
-  - [USAGE](#USAGE:)
-  - [CONTRIBUTORS](#CONTRIBUTION:)
-  - [LICENSE](#License:)
-  - [TESTS](#TESTS:)
-  - [Questions](#QUESTIONS:) 
+
+  ## TABLE OF CONTENTS
+  - [TITLE](#THIS-IS-MY-TITLE)
+  - [DESCRIPTION](#DESCRIPTION)
+  - [INSTALLTION](#INSTALLATION)
+  - [USAGE](#USAGE)
+  - [CONTRIBUTORS](#CONTRIBUTION)
+  - [LICENSE](#License)
+  - [TESTS](#TESTS)
+  - [QUESTIONS](#QUESTIONS) 
   
-  # INSTALLATION: <br>
+  ## INSTALLATION
   ${data.Installation}
-  # USAGE: :running: <br>
+
+  ## USAGE
   ${data.Usage} 
-  # CONTRIBUTION: :dancing_men:<br>
+
+  ## CONTRIBUTION
   ${data.Contribution}
-  # License: <br>
+
+  # License
   ${renderLicenseBadge(data.License)}
   ${renderLicenseLink(data.License)}
-  ## TESTS: :heavy_check_mark:<br>
-  ${data.Tests}
-  # QUESTIONS: <br>
-  <a>${data.github}<
 
+  ## TESTS
+  ${data.Tests}
+
+  ## QUESTIONS
   If you have any questions for me about this Application, please feel free to reach 
-  out to me directly on Github on my profile page https://github.com/${data.github} <br>
-  or you can email me directly at ${data.email}
+  out to me directly on Github on my profile page <https://github.com${data.github}>
+  or you can email me directly at <${data.email}>
   `;
 }
 
