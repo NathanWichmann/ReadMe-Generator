@@ -4,15 +4,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require ('fs');
 const path = require('path');
 
-// const licenses = {
-//     'The MIT License': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-//     'ISC License': '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
-//     'Apache License 2.0': 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
-//     'GNU General Public License v3.0': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
-//     'Mozillia Public License 2.0': '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
-// }
-
-
 const licenses = ['MIT', 'APACHE 2.0', 'MOZILLIA', 'GPL 3.0', 'None']
 
 // TODO: Create an array of questions for user input
@@ -130,6 +121,5 @@ function init() {
 
 
  }
-
 // Function call to initialize app
 init();
