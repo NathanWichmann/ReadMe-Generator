@@ -1,7 +1,7 @@
 
 ## README.md Generator
 
-## Link to the Video of the Application
+## Link to the Video of the Application is in the repo above
 
 
 
