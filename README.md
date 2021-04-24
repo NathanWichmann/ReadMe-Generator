@@ -4,6 +4,8 @@
 ## Link to the Video of the Application
 <iframe src="https://drive.google.com/file/d/1XtL8YLaH7eAoLDr3frwF1U7niK2zV6nc/preview" width="640" height="480"></iframe>
 
+![](name-of-giphy.gif)
+
 ## Assignment 
 When creating an open source project on GitHub, it’s important to have a high-quality README for the application. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project.
 The best way to contribute to a project is to either clone or fork a copy of the resposity to your computer. Then add it to another branch so you can make any changes you deem fit. This will allow for your work to be seperate from the original repository and will not make any chmages until you push them. There is a process in which the changes made are reviewed before they are committed to the resposity. For a detailed list of procedures for constributing to another respositorry, please consult this github respository:
