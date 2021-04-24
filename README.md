@@ -2,7 +2,6 @@
 ## README.md Generator
 
 ## Link to the Video of the Application
-<iframe src="https://drive.google.com/file/d/1XtL8YLaH7eAoLDr3frwF1U7niK2zV6nc/preview" width="640" height="480"></iframe>
 
 ![](Untitled_ Apr 23, 2021 7_28 PM.gif)
 
